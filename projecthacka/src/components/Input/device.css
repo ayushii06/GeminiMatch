@@ -1,0 +1,24 @@
+
+  #regForm {
+    background-color: #fafefee4;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+    box-shadow: 5px 4px 15px gray;
+    border: 2px solid black;
+    border-radius:10px;
+    
+  }
+  h1{
+    text-align: center;
+  }
+  
+  .container{
+        display: flex;
+        align-items: center;
+        width: 25vw;
+        font-size: 27px;
+      }
+  

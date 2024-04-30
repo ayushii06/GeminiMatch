@@ -1,0 +1,81 @@
+
+body{
+ 
+  background: white;
+}
+
+.bg-aliceblue{
+  background: aliceblue;
+  padding: 46px;
+  height: 100vh;
+}
+  
+  #regBox {
+    box-shadow: 0px 0px 7px #9b9b9b;
+    padding: 15px;
+    background: #184884;
+    width: 41vw;
+    margin: 10vh auto 0vh;
+    height: 36vh;
+    border-radius: 3px;
+
+  }
+
+  .heading-input{
+    font-weight: 500;
+    padding: 12px;
+    text-align: center;
+    font-size: 17px;
+color: #ffdd08;
+  }
+  
+ .drop-down{
+  width: 23vw;
+  position: relative;
+  left: 8vw;
+  top: 5vh;
+  outline: none;
+  padding: 6px;
+  font-size: 18px;
+ }
+
+ .btn-input{
+  width: 10vw;
+  margin: 12px auto;
+  padding: 7px;
+ }
+
+ .input-button{
+  padding: 6px 21px ;
+  top: 7vh;
+  position: relative;
+  left: 42vw;
+  color: #184884;
+  margin: auto;
+  font-weight: 500;
+  cursor: pointer;
+  width: 14vw;
+  border: 2px solid #1d397e;
+  border-radius: 3px;
+  font-size: 23px;
+ 
+ }
+
+ .input-button:hover{
+  background-color: #1d397e;
+  color: white;
+ }
+/* 
+ .button-div{
+  text-align: center;
+  margin: 9vh auto;
+  width: 9vw;
+  border: 2px solid #184884;
+  border-radius: 3px;
+  font-size: 23px;
+  padding: 7px;
+ }
+
+ .button-div:hover{
+  background-color: #184884;
+ } */

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+    /* background-color: #f8f1f4; */
+    padding: 0px;
+    text-align: center;
+    /* margin: 55px; */
+
+}
+
+.flex-column{
+    padding: 39px;
+    width: 38vw;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 39px auto;
+    
+    background: #184884;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px #8a7a7a;
+}
+
+.form{
+    border-radius: 3px;
+    padding: 12px;
+
+    background:none;
+}
+
+.login-subheading{
+    text-align: center;
+    font-size: 23px;
+}
+
+
+.login-heading{
+    font-size: 38px;
+    font-family: fantasy;
+    text-align: center;
+    font-weight: 100;
+    padding: 39px;
+    color: black;
+}
+
+#email, #name,#number, #password{
+    border: 1px solid;
+    background: white;
+    width: 32vw;
+    font-size: 17px;
+    margin-bottom: 29px;
+}
+.input-login{
+    font-size: 20px;
+    color: #274407;
+    padding: 11px;
+    border-radius: 2px;
+    border: none;
+    /* text-align: center; */
+    width: 29vw;
+    outline: none;
+}
+
+form-group{
+    text-align: center;
+}
+
+button{
+    background: none;
+    font-size: 20px;
+    /* color: #274407; */
+    padding: 11px;
+    border-radius: 4px;
+    border: 1px solid black;
+    /* text-align: center; */
+    width:11vw;
+}
+
+button:hover{
+    background-color: #393939;
+    border-color: #393939;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer{
+    margin: 17px;
+    text-align: center;
+}
+
+.register{
+    margin: 12px;
+    text-decoration: underline;
+}
+
+.register>a{
+    color: #df648b;
+    font-weight: 600;
+    font-size: 18px;
+}

@@ -1,0 +1,44 @@
+.mp{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.sp{
+    color: black;
+    font-weight: bold;
+}
+
+.profit{
+    color: green;
+}
+
+.flex{
+    gap: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.f-22{
+    margin: 26px;
+    font-size: 24px;
+
+}
+
+.col{
+    margin: 32px 0px;
+}
+
+.flex{
+    position: relative;
+    top: 9vh;
+}

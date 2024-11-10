@@ -9,13 +9,14 @@ import '../../style.css'
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 
+
 const Home = (props) => {
 
     let {title}=props;
     
       const [json, setJson] = useState([])
     
-      const genAI = new GoogleGenerativeAI("AIzaSyDC22XGHoChPYXYQR0zjFshqp9J7sZdnU8");
+      const genAI = new GoogleGenerativeAI('AIzaSyCjjWu0AhbA4qAE0dLbUZ8uQAf-wHbB7aI');
     
       const model = genAI.getGenerativeModel({ model: "gemini-pro" });
     

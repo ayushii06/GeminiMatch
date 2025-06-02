@@ -8,7 +8,6 @@ if(!mongodb_uri){
 
 let cached = global.mongoose; 
 
-<<<<<<< HEAD
 if(!cached){
     cached = global.mongoose = {conn:null,promise:null};
 }
@@ -29,5 +28,3 @@ export async function connectToDatabase(){
 
 
 }
-=======
->>>>>>> version2

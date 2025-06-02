@@ -1,0 +1,8 @@
+playwright
+crewai
+langchain-huggingface
+langchain
+langchainhub
+langchain_community
+langchain_ollama
+litellm

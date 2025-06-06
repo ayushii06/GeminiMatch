@@ -1,6 +1,6 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose';
 
-const mongodb_uri:string = process.env.MONGO_DB_URI! //here ! makes sure the mongodb_uri exists i.e. it is not undefined
+const mongodb_uri = process.env.MONGO_DB_URI! //here ! makes sure the mongodb_uri exists i.e. it is not undefined
 
 if(!mongodb_uri){
     throw new Error("Please define the mongo db url in env file")
@@ -25,6 +25,10 @@ export async function connectToDatabase(){
         cached.promise = mongoose.connect(mongodb_uri,opts).then(()=>mongoose.connection)
     }
 
-
-
+    try {
+        cached.conn = await cached.promise
+    } catch (error) {
+        cached.promise = null
+        throw error
+    }
 }
